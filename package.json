@@ -1,0 +1,22 @@
+{
+  "name": "express-scratch",
+  "version": "0.0.1",
+  "description": "application from scratch",
+  "main": "server.js",
+  "scripts": {
+    "start": "DEBUG=http,mail,knex:*,express:* node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Magesh",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "hbs": "^4.0.6",
+    "knex": "^0.19.5",
+    "multer": "^1.4.2",
+    "pg": "^7.12.1",
+    "pug": "^3.0.0"
+  }
+}

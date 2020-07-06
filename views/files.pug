@@ -1,0 +1,9 @@
+html
+  head
+    title= "Listing files"
+  body
+    h1= "Listing Files"
+    ul
+      each file in files.length ? files : ['There are no values']
+        li
+          a(href="/files/show?file=" + file)= file
